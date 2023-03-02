@@ -14,8 +14,8 @@ export default function ItemsCard() {
         <a href="#link" className=" p-4 clickable">5</a>
       </div>
       <div className="d-flex gap-3 resp-item-show mt-5 p-3">
-        <button type="button" class="btn btn-light w-50">Previous</button>
-        <button type="button" class="btn btn-primary w-50">Next</button>
+        <button type="button" className="btn btn-light w-50">Previous</button>
+        <button type="button" className="btn btn-primary w-50">Next</button>
       </div>
     </>
   );

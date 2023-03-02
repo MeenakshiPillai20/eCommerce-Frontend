@@ -86,7 +86,7 @@ const BestSeller = () => {
                 allData && allData.map((item) => {
                     return(
                         <>
-                           <Cards image={item.image} name={item.name}/>
+                           <Cards item={item}/>
                         </>
                     )
                 })
@@ -97,7 +97,7 @@ const BestSeller = () => {
                 dramaData && dramaData.map((item) => {
                     return(
                         <>
-                           <Cards image={item.image} name={item.name}/>
+                           <Cards item={item}/>
                         </>
                     )
                 })
@@ -108,7 +108,7 @@ const BestSeller = () => {
                 romanceData && romanceData.map((item) => {
                     return(
                         <>
-                           <Cards image={item.image} name={item.name}/>
+                           <Cards item={item}/>
                         </>
                     )
                 })
@@ -119,7 +119,7 @@ const BestSeller = () => {
                 crimeData && crimeData.map((item) => {
                     return(
                         <>
-                           <Cards image={item.image} name={item.name}/>
+                           <Cards item={item}/>
                         </>
                     )
                 })
@@ -130,7 +130,7 @@ const BestSeller = () => {
                 horrorData && horrorData.map((item) => {
                     return(
                         <>
-                           <Cards image={item.image} name={item.name}/>
+                           <Cards item={item}/>
                         </>
                     )
                 })
@@ -141,7 +141,7 @@ const BestSeller = () => {
                 literaryData && literaryData.map((item) => {
                     return(
                         <>
-                           <Cards image={item.image} name={item.name}/>
+                           <Cards item={item}/>
                         </>
                     )
                 })

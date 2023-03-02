@@ -13,7 +13,7 @@ export default function Sidebar() {
           <p className="m-0">$13.99 - $25.99</p>
         </p>
 
-       <input type="range" class="form-range" min="0" max="5" id="customRange2"></input>
+       <input type="range" className="form-range" min="0" max="5" id="customRange2"></input>
        
       </div>
       <div className="side-bar mt-4 pb-3 mb-4">

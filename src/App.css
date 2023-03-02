@@ -16,6 +16,11 @@
     color: red;
     padding-top: 15px;
 }
+.head3{
+  text-align: center;
+  color: black;
+  margin: 180px 0px;
+}
 .hr{
     color: rgb(214, 214, 214);
 }
@@ -84,11 +89,13 @@
   .d:hover .d-content {
     display: block;
   }
-  .row{
+  .header-row{
     background: #5F5F5F;
     border-radius: 10px;
     width: 85%;
     margin: auto;
+    display: grid;
+    
   }
   
  
@@ -325,8 +332,8 @@ margin-top: 10px;
   
 }
 .feature-card-img{
-  width: 100px;
-  height: 150px;
+  width: 110px;
+  height: 170px;
   margin: 10px;
 
 }
@@ -586,3 +593,10 @@ margin-top: 10px;
 
 } */
 
+.cart-container{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.qty{
+  width: 220px;
+}

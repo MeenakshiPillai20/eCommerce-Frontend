@@ -3,6 +3,7 @@ import NavLinks from "../header/NavLinks";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import {AiOutlineUser, AiOutlineShoppingCart, AiOutlineSearch} from "react-icons/ai";
 import Dropdowns from "./Dropdowns";
+import { NavLink } from "react-router-dom";
 
 export default function Header() {
   return (
@@ -25,9 +26,10 @@ export default function Header() {
                   <AiOutlineUser className="me-1" />
                   My Profile
                 </Nav.Link>
-                <Nav.Link href="#link" className="me-4">
-                  <AiOutlineShoppingCart className="me-1" /> items
-                </Nav.Link>
+                <NavLink to="/cart" className="mx-2 d-flex text-decoration-none px-3 pt-2">
+                   <AiOutlineShoppingCart className="mt-1 me-2" />
+                   <p className=" text-decoration-none "> items </p>
+                </NavLink>
                 <Nav.Link href="#link">
                   <AiOutlineSearch />
                 </Nav.Link>

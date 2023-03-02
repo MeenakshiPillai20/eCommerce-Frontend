@@ -38,12 +38,12 @@ const NavLinks = () => {
                 Fiction
               </NavLink>
               <div className="d-content">
-                <div class="row my-3">
+                <div className=" row my-3">
                 {fiction && fiction.map((val) => {
                 return (
                   <>
                    
-                    <LinksInNav  type={val.type}/>
+                    <LinksInNav key={val._id}  type={val.type}/>
                   </>
                 );
               })}
@@ -58,11 +58,11 @@ const NavLinks = () => {
                 Non Fiction
               </NavLink>
               <div className="d-content">
-                <div className="row my-3">
+                <div className=" row  my-3">
                 {nonFiction && nonFiction.map((val) => {
                 return (
                   <>
-                    <LinksInNav type={val.type}/>
+                    <LinksInNav key={val._id} type={val.type}/>
                   </>
                 );
               })}

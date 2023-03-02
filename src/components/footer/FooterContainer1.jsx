@@ -12,8 +12,8 @@ export default function FooterContainer1() {
              <h4 >Follow Us</h4>
              <p className='footer-para mt-4'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.Since the 1500s, when an unknown printer.</p>
              <div>
-             <i class="fab fa-facebook me-4 text-primary"></i>
-             <i class="fab fa-twitter text-primary"></i>
+             <i className="fab fa-facebook me-4 text-primary"></i>
+             <i className="fab fa-twitter text-primary"></i>
              </div>
            </div>
            <div className='footer-box mx-4 px-3 '>

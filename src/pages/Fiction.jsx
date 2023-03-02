@@ -12,7 +12,7 @@ import Sidebar from "../components/itemsPage/Sidebar";
 export default function Fiction() {
   const [data, setData] = useState([]);
   const [cardData, setCardData] = useState([]);
-
+  const [cart, setCart] = useState([]);
   const id  = useParams();
  console.log(id.pid)
 const newId = id.pid
@@ -28,6 +28,12 @@ const newId = id.pid
       .then((json) => setCardData(json))
       .catch(err => console.log("error => ",err))
   },[newId]);
+
+  const handleClick = (item) => {
+    // cart.push(item);
+    setCart([...cart,item]);
+    console.log(cart);
+  }
   
   return (
     <>
@@ -66,7 +72,7 @@ const newId = id.pid
                 cardData && cardData.map((item) => {
                     return(
                         <>
-                           <Cards image={item.image} name={item.name}/>
+                           <Cards item={item} handleClick={handleClick}/>
                         </>
                     )
                 })

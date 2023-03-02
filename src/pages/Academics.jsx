@@ -67,7 +67,7 @@ const newId = id.pid
                 cardData && cardData.map((item) => {
                     return(
                         <>
-                           <Cards image={item.image} name={item.name}/>
+                           <Cards item={item} />
                         </>
                     )
                 })
