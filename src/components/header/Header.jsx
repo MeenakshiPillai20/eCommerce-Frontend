@@ -15,7 +15,7 @@ export default function Header() {
               <Dropdowns />
             </Navbar>
 
-            <h2 className="res-show  text-danger  ">iSHOP</h2>
+            <h2 className="res-show  text-danger  ">Book Palace</h2>
 
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
@@ -65,7 +65,7 @@ export default function Header() {
       </div>
 
       <Container className="m-head">
-        <h1 className="head">iSHOP</h1>
+        <h1 className="head">Book Palace</h1>
       </Container>
 
       <Navbar bg="white" expand="md" className="l-head">
